@@ -1,0 +1,16 @@
+name: fork
+version: 0.1.0.0
+github: "jkarni/fork"
+license: BSD3
+author: "Julian K. Arni"
+maintainer: "jkarni@riseup.net"
+
+dependencies:
+  - base == 4.*
+  - linear-base
+
+library:
+  source-dirs: src
+
+default-extensions:
+  - NoImplicitPrelude
